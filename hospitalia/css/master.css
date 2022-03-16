@@ -1,0 +1,292 @@
+:root{
+    --main--color: #ff9800;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: grey;
+}
+.landing-page{
+    min-height: 100vh;
+    background-image: url('../imgs/hospital1.jpg');
+    background-size: cover;
+    position: relative;
+}
+.landing-page .overlay {
+    background-color: rgba(45,99,75,.6);
+    position:absolute;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    z-index: 1;
+
+}
+
+.header-area{
+    position:relative;
+    color: rgba(255,255,255,1);
+    z-index: 2;
+    display: flex;
+    padding: 10px;
+
+}
+.header-area .logo{
+    width:300px;
+    padding:19px;
+    font-size:38px ;
+    
+}
+.header-area  .navbar{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+}
+.header-area  .navbar li {
+    display: inline-block;
+    padding: 15px;
+    padding-left: 22px;
+    padding-right: 20px;
+}
+
+.header-area  .navbar li a {
+    color:white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.header-area  .navbar li a:hover {
+    color:var(--main--color);
+    text-decoration: none;
+}
+.header-area  .navbar li a:active  {
+    color:var(--main--color);
+    text-decoration: none;
+}
+
+
+.introduction{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    text-align:center;
+
+}
+
+.introduction h1 span{
+    
+    color :var(--main--color)
+}
+.introduction .inffo{
+    font-size:20px;
+}
+.about-us{
+   min-height: 15vh;
+}
+.container{
+   
+    width :85%;
+    margin :auto;
+    overflow: hidden;
+}
+.container h1 , .container .inffo{
+    text-align:center;
+}
+div.gallery {
+    margin: 15px;
+    float: left;
+    width: 276px;
+    
+  }
+  
+  div.gallery:hover {
+   background-color: turquoise;
+   transition: .5s;
+   border-color: turquoise;
+   border-radius: 12px ;
+
+  }
+  
+  div.gallery img {
+    width: 49%;
+    height: auto;
+    padding-left: 77px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: left;
+  }
+  .desc h3{
+    text-align: center;
+  }
+
+  .recieve button{
+    border:0px none ;
+    background-color: turquoise;
+    margin-left: 508px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .recieve button a{
+      text-decoration:none;
+  }
+  .recieve button a:hover{
+    text-decoration:none;
+    color: black;
+    transition: .5s;
+
+  }
+  .recieve button a:active{
+    text-decoration:none;
+    color: rgb(176, 230, 207);
+  }
+  .recieve button:hover{
+    background-color: skyblue;
+    border: none;
+    transition: .5s;
+
+     
+  }
+  .recieve button:focus{
+    background-color: skyblue;
+            
+            border-radius:12px;
+           
+            outline: none;
+  }
+  .recieve button:active{
+        background-color: skyblue;
+          
+        border-radius:12px;
+}
+
+.welc{
+    float:left;
+
+}
+.welcome{
+    padding-top:60px;
+    padding-bottom:20px;
+    background-color:#ecf7f6
+}
+.hom{
+    background-color: white;
+    background-image: url('../imgs/infobox.png') ;
+    background-size: cover;
+    text-align: center;
+    
+}
+.hom span{
+    color: var(--main--color);
+}
+.inf{
+    background-color:slateblue;
+    background-image: url('../imgs/get_in_touch.png');
+    width: 26%;
+    height: 260px;
+    margin-left: 25px;
+    padding-left: 31px;
+    padding-top: 10px;
+    color: white;
+}
+.inf ul{
+    list-style: none;
+    vertical-align: middle;
+}
+.inf ul li{
+    list-style-image: url('../imgs/mailus-.jpg');
+}
+
+
+.todeal{
+    display: inline;
+    vertical-align: top;
+    border: 2px solid black;
+}
+.clearfix {
+    width: 30%;
+    margin: 15px;
+    overflow: auto;
+    float: left;
+  }
+  
+  .img2 {
+    float: left;
+  }
+  .point{
+      margin-top: 40px;
+    font-size: 26px;
+    color: white;
+    padding: 41px;
+    padding-left: 132px;
+    background-color: #13bfb1;
+  }
+  .point button{
+    border:0px none ;
+    background-color: turquoise;
+    position: relative;
+    left: 25%;
+  }
+  .point button a{
+      text-decoration:none;
+  }
+  .point button a:hover{
+    text-decoration:none;
+    color: black;
+    transition: .5s;
+
+  }
+  .point button a:active{
+    text-decoration:none;
+    color: rgb(176, 230, 207);
+  }
+  .point button:hover{
+    background-color: skyblue;
+    border: none;
+    transition: .5s;
+
+     
+  }
+  .point button:focus{
+    background-color: skyblue;
+            
+            border-radius:12px;
+           
+            outline: none;
+  }
+  .point button:active{
+        background-color: skyblue;
+          
+        border-radius:12px;
+}
+
+.allfix{
+    margin-top: 65px;
+    
+}
+footer{
+    height: 30vh;
+    width:25%;
+    margin: auto;
+    margin-top: 60px;
+}
+footer ul{
+
+    list-style-type: none;
+    float:left;
+}
+footer ul li{
+    float: left;
+    margin: 40px;
+}
+.end{
+    width: 80%;
+    margin: auto;
+}
